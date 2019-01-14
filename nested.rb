@@ -57,7 +57,7 @@ programmer_hash[:dennis_ritchie][:languages].join
 end
 
 def adding_matz
-	programmer_hash = 
+#	programmer_hash = 
  		{
         :grace_hopper => {
           :known_for => "COBOL",
@@ -94,8 +94,10 @@ def changing_alan
           :languages => ["C"]
         }
      }
+     #change what Alan Kay is :known_for to the value of the alans_new_info variable. 
+      = "GUI"
      
- programmer_hash[:alan_kay][:known_for] = "GUI"
+     
 end
 
 def adding_to_dennis
